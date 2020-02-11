@@ -1,4 +1,55 @@
+.menu           {
+            background-color:#FFFFFF;
+            border-bottom-width:2px;
+            border-bottom-color:#000000;
+            border-bottom-style: solid;
+            position: relative;
+            top:-15px;
+            text-align:center;
+            font-family:Andalus;
+            font-size:18px;
+            padding-left:1em;
+            padding-right:1em;
+            overflow:hidden;
+            }
+
+.menu h1        {
+            float:left;
+            color: 'Roboto', sans-serif;;
+            font-family:andalus;
+            font-size:24;
+            }
+
+  .menu:hover{
+    background-color: yellow;
+    cursor: crosshair;;
 }
+
+.main           {
+            width:65%;
+            margin:0 auto;
+            background-color:#FFFFFF;
+            text-align:center;
+            font-family:andalus;
+            font-size:24px;
+            padding-top:1px;
+            }
+
+.footer         {
+            text-align:centre;
+            background-color:#C8C8C8;
+            color:#000000;
+            font-family:andalus;
+            margin-bottom:-1em;
+            }
+
+#footer li      {
+            display:inline-block;
+            padding-right:8em;
+            vertical-align:middle;
+            margin-top: -30px;
+            }
+
 
 #nav            {
             padding-top:15px;
@@ -34,22 +85,6 @@ img             {
             margin-right:4.5em;
             padding-right:2.5em;
             }
-            .top            {
-                        background-color:#000000;
-                        padding-bottom:2.5em;
-                        }
 
-            .menu           {
-                        background-color:#FFFFFF;
-                        border-bottom-width:2px;
-                        border-bottom-color:#000000;
-                        border-bottom-style: solid;
-                        position: relative;
-                        top:-15px;
-                        text-align:center;
-                        font-family:Andalus;
-                        font-size:18px;
-                        padding-left:1em;
-                        padding-right:1em;
-                        overflow:hidden;
-                        }
+
+}

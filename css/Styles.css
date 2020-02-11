@@ -25,7 +25,7 @@
 
 .menu h1        {
             float:left;
-            color:#999966;
+            color: 'Roboto', sans-serif;;
             font-family:andalus;
             font-size:24;
             }

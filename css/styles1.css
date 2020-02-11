@@ -95,6 +95,11 @@ h2 {
   cursor: pointer;
 }
 
+.menu:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
+
 #change {
   background-color: white;
   border: 1px solid blue;
@@ -183,9 +188,4 @@ img             {
                         overflow:hidden;
                         }
 
-            .menu h1        {
-                        float:left;
-                        color:#999966;
-                        font-family:andalus;
-                        font-size:24;
-                        }
+          

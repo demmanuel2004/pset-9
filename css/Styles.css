@@ -30,6 +30,10 @@
             font-size:24;
             }
 
+  .menu:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
 
 .main           {
             width:65%;

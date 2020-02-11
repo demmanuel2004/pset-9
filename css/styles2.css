@@ -1,0 +1,55 @@
+}
+
+#nav            {
+            padding-top:15px;
+            }
+
+#nav a          {
+            text-decoration:none;
+            }
+
+#nav a:link     {
+            color:black;
+            }
+
+#nav a:visited  {
+            color:black;
+            }
+
+#nav a:hover    {
+            color:black;
+            }
+
+img             {
+            margin:42px;
+            }
+
+#nav ul         {
+            display:inline-block;
+            }
+
+
+#nav li         {
+            display:inline-block;
+            margin-right:4.5em;
+            padding-right:2.5em;
+            }
+            .top            {
+                        background-color:#000000;
+                        padding-bottom:2.5em;
+                        }
+
+            .menu           {
+                        background-color:#FFFFFF;
+                        border-bottom-width:2px;
+                        border-bottom-color:#000000;
+                        border-bottom-style: solid;
+                        position: relative;
+                        top:-15px;
+                        text-align:center;
+                        font-family:Andalus;
+                        font-size:18px;
+                        padding-left:1em;
+                        padding-right:1em;
+                        overflow:hidden;
+                        }

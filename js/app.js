@@ -18,6 +18,7 @@ let turn;
 let win;
 let x_count = 0
 let o_count = 0
+let ties_count = 0
 let whose_turn = 0
 
 ///////////////////// CACHED ELEMENT REFERENCES /////////////////////
@@ -53,10 +54,12 @@ function change_turn() {
   if (whose_turn == 0) {
     message.textContent = "Turn: O";
     whose_turn = 1;
+    turn = turn === "X" ? "O" : "X"
   }
   else if (whose_turn == 1) {
     message.textContent = "Turn: X";
     whose_turn = 0;
+    turn = turn === "O" ? "X" : "O"
   }
 
 }
@@ -71,8 +74,12 @@ function render() {
   else if (win === "O") {
     o_count = o_count + 1
   }
+  else if (win === "T") {
+    ties_count = ties_count + 1
+  }
   x_wins.innerHTML = x_count
   o_wins.innerHTML = o_count
+  ties.innerHTML = ties_count
   message.textContent =
     win === "T" ? "It's a tie!" : win ? `${win} wins!` : `Turn: ${turn}`;
 }

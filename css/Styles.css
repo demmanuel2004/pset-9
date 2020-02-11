@@ -32,7 +32,7 @@
 
   .menu:hover{
     background-color: yellow;
-    cursor: pointer;
+    cursor: crosshair;;
 }
 
 .main           {
@@ -97,6 +97,9 @@ img             {
             }
 
 
+}
+
+
             body {
               padding: 20px 80px;
               background: #eee;
@@ -115,7 +118,7 @@ img             {
             }
             #logo:after {
               content:"GAME SUITE";
-              position: auto;
+              position: right;
               left: 8px;
               top: 20px;
             }

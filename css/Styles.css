@@ -95,3 +95,66 @@ img             {
             margin-right:4.5em;
             padding-right:2.5em;
             }
+
+
+            body {
+              padding: 20px 80px;
+              background: #eee;
+            }
+            #logo {
+              font-family: Didot, serif;
+              color: #000080;
+              text-decoration:
+              text-transform: uppercase;
+              font-size: 50px;
+              font-weight: 800;
+              letter-spacing: -3px;
+              line-height: 1;
+              text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+              position: relative;
+            }
+            #logo:after {
+              content:"GAME SUITE";
+              position: auto;
+              left: 8px;
+              top: 20px;
+            }
+            #logo:after {
+
+              background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+              background-size: 4px 4px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              z-index: -5;
+              display: block;
+              text-shadow: none;
+            }
+
+            .main {
+              font-family: Didot, serif;
+              color: #000080;
+              text-decoration:
+              text-transform: uppercase;
+              font-size: 100px;
+              font-weight: 800;
+              letter-spacing: -3px;
+              line-height: 1;
+              text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
+              position: relative;
+            }
+            .main:after {
+              content:"GAME SUITE";
+              position: absolute;
+              left: 8px;
+              top: 32px;
+            }
+            .main:after {
+
+              background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+              background-size: 4px 4px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              z-index: -5;
+              display: block;
+              text-shadow: none;
+            }

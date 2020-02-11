@@ -32,7 +32,7 @@
 
   .menu:hover{
     background-color: yellow;
-    cursor: crosshair;;
+    cursor: crosshair;
 }
 
 .main           {
@@ -78,7 +78,7 @@
             }
 
 #nav a:hover    {
-            color:black;
+            color:blue;
             }
 
 img             {

@@ -161,3 +161,7 @@ img             {
               display: block;
               text-shadow: none;
             }
+
+.parallax {
+    background-attachment: scroll;
+  }

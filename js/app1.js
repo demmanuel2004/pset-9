@@ -1,4 +1,4 @@
-var player=1; //1 for Yellow, 2 for Red
+var player=1; 
 var grid = [
   [0, 0, 0, 0, 0, 0, 0],
   [0, 0, 0, 0, 0, 0, 0],
@@ -33,7 +33,7 @@ function refreshGrid() {
                 document.getElementById("cell"+row+col).style.backgroundColor="#FFFFFF";
       } else if (grid[row][col]==1) {
                 document.getElementById("cell"+row+col).style.backgroundColor="#FFFF00";
-      } else if (grid[row][col]==2) { 
+      } else if (grid[row][col]==2) {
                 document.getElementById("cell"+row+col).style.backgroundColor="#FF0000";
        }
     }

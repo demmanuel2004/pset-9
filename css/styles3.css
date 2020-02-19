@@ -223,10 +223,10 @@ body , html{
 }
 
 @media only screen and (max-width : 640px){
-	.table{
-		width: 400px;
-		height: 400px;
-	}
+ .table{
+   width: 400px;
+   height: 400px;
+ }
 
 	.square{
 		width: 50px;

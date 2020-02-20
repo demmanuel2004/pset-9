@@ -17,7 +17,7 @@
             top:-15px;
             text-align:center;
             font-family:Andalus;
-            font-size:18px;
+            font-size:10px;
             padding-left:1em;
             padding-right:1em;
             overflow:hidden;
@@ -25,9 +25,7 @@
 
 .menu h1        {
             float:left;
-            color: 'Roboto', sans-serif;;
-            font-family:andalus;
-            font-size:24;
+            font-family: "Lucida Bright", Georgia, serif; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; 
             }
 
   .menu:hover{
@@ -41,7 +39,7 @@
             background-color:#FFFFFF;
             text-align:center;
             font-family:andalus;
-            font-size:24px;
+            font-size:20px;
             padding-top:1px;
             }
 
@@ -63,7 +61,7 @@
 
 #nav            {
             padding-top:25px;
-            font-size: 25px
+            font-size: 19px
             }
 
 #nav a          {

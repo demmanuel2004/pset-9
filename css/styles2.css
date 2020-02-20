@@ -1,220 +1,42 @@
-<<<<<<< HEAD
-=======
-}.wrapper        {
-            margin:0 auto;
-            background-color:#D1CED4;
-            }
 
-.top            {
-            background-color:#000000;
-            padding-bottom:2.5em;
-            }
-
->>>>>>> 838db15e6db4bc402295827b6291484cf6290cc3
-.menu           {
-            background-color:#FFFFFF;
-            border-bottom-width:2px;
-            border-bottom-color:#000000;
-            border-bottom-style: solid;
-            position: relative;
-            top:-15px;
-            text-align:center;
-            font-family:Andalus;
-            font-size:18px;
-            padding-left:1em;
-            padding-right:1em;
-            overflow:hidden;
-            }
-
-.menu h1        {
-            float:left;
-            color: 'Roboto', sans-serif;;
-            font-family:andalus;
-            font-size:24;
-            }
-
-  .menu:hover{
-    background-color: yellow;
-<<<<<<< HEAD
-    cursor: crosshair;;
-=======
-    cursor: crosshair;
->>>>>>> 838db15e6db4bc402295827b6291484cf6290cc3
-}
-
-.main           {
-            width:65%;
-            margin:0 auto;
-            background-color:#FFFFFF;
-            text-align:center;
-            font-family:andalus;
-            font-size:24px;
-            padding-top:1px;
-            }
-
-.footer         {
-            text-align:centre;
-            background-color:#C8C8C8;
-            color:#000000;
-            font-family:andalus;
-            margin-bottom:-1em;
-            }
-
-#footer li      {
-            display:inline-block;
-            padding-right:8em;
-            vertical-align:middle;
-            margin-top: -30px;
-            }
-
-
-#nav            {
-            padding-top:15px;
-            }
-
-#nav a          {
-            text-decoration:none;
-            }
-
-#nav a:link     {
-            color:black;
-            }
-
-#nav a:visited  {
-            color:black;
-            }
-
-#nav a:hover    {
-            color:blue;
-            }
-
-img             {
-            margin:42px;
-            }
-
-#nav ul         {
-            display:inline-block;
-            }
-
-
-#nav li         {
-            display:inline-block;
-            margin-right:4.5em;
-            padding-right:2.5em;
-            }
-
-
-}
-<<<<<<< HEAD
-=======
-
-
-            body {
-              padding: 20px 80px;
-              background: #eee;
-            }
-            #logo {
-              font-family: Didot, serif;
-              color: #000080;
-              text-decoration:
-              text-transform: uppercase;
-              font-size: 50px;
-              font-weight: 800;
-              letter-spacing: -3px;
-              line-height: 1;
-              text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-              position: relative;
-            }
-            #logo:after {
-              content:"GAME SUITE";
-              position: right;
-              left: 8px;
-              top: 20px;
-            }
-            #logo:after {
-
-              background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
-              background-size: 4px 4px;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              z-index: -5;
-              display: block;
-              text-shadow: none;
-            }
-
-            .main {
-              font-family: Didot, serif;
-              color: #000080;
-              text-decoration:
-              text-transform: uppercase;
-              font-size: 100px;
-              font-weight: 800;
-              letter-spacing: -3px;
-              line-height: 1;
-              text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em red;
-              position: relative;
-            }
-            .main:after {
-              content:"GAME SUITE";
-              position: absolute;
-              left: 8px;
-              top: 32px;
-            }
-            .main:after {
-
-              background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
-              background-size: 4px 4px;
-              -webkit-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              z-index: -5;
-              display: block;
-              text-shadow: none;
-            }
-
-
-
-
-
-                        BODY {
-                          font-family: 'Open Sans', sans-serif;
-                          color: #0044AA;
-                          text-align: center;
-                        }
-                        H1 {
-                          font-size: 24px;
-                        }
-
-                        #colorTurn {
-                          font-size: 18px;
-                        }
-
-                        #grid {
-                          margin: 20px auto;
-                          display: table;
-                          width: 415px;
-                          height: 360px;
-                          padding: 10px;
-                          background: #0077EE;
-                          border: 1px solid #0044AA;
-                          border-radius: 5px;
-                          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-                          -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-                          -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-                           border-spacing: 5px 5px;
-                        }
-
-                        .row {
-                          display: table-row;
-                        }
-
-                        .cell {
-                          display: table-cell;
-                          background-color: #FFFFFF;
-                          width: 50px;
-                          height: 50px;
-                          -webkit-border-radius: 50%;
-                          -moz-border-radius: 50%;
-                          border-radius: 50%;
-                          margin: 2px;
-                        }
->>>>>>> 838db15e6db4bc402295827b6291484cf6290cc3
+			.click_button {
+				height: 42px;
+				width: 42px;
+				border-radius: 24px;
+				background-color: rgba(255,0,0,1);
+				cursor: pointer;
+			}
+			
+			/* Make each piece square - 32x32, set the border-radius to 16px (so that it appears round) and center it using margin-left
+			and margin-right: auto */
+			.piece {
+				height: 32px;
+				width: 32px;
+				display:block;
+				border-radius: 16px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			/* Player 0 (no player) will have a light-grey background */
+			.player0 {
+				background-color: #DDDDDD; /* hex colors were used, but rgb/rgba could be used as well */
+			}
+			
+			/* player 1 will have a red background */
+			.player1 {
+				background-color: #FF0000;
+			}
+			
+			/* player 2 will have a blue background */
+			.player2 {
+				background-color: #0000FF;	
+			}
+			
+			/* set the board square to having a dark-grey border, and to be 36x36 square */
+			.board_square {
+				border: 1px solid #555555;
+				height: 36px;
+				width: 36px;
+			}
+			

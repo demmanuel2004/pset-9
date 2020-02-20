@@ -180,8 +180,6 @@
 					document.writeln("</tr>");	
 				}						
 										
-		
-			<div id="game_status">
 			</div>
 		</div>
 	</body>

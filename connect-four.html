@@ -27,51 +27,6 @@
   
 		<h1>Connect Four</h1>
 		
-		<style>
-			.click_button {
-				height: 42px;
-				width: 42px;
-				border-radius: 24px;
-				background-color: rgba(255,0,0,1);
-				cursor: pointer;
-			}
-			
-			/* Make each piece square - 32x32, set the border-radius to 16px (so that it appears round) and center it using margin-left
-			and margin-right: auto */
-			.piece {
-				height: 32px;
-				width: 32px;
-				display:block;
-				border-radius: 16px;
-				margin-left: auto;
-				margin-right: auto;
-			}
-			
-			/* Player 0 (no player) will have a light-grey background */
-			.player0 {
-				background-color: #DDDDDD; /* hex colors were used, but rgb/rgba could be used as well */
-			}
-			
-			/* player 1 will have a red background */
-			.player1 {
-				background-color: #FF0000;
-			}
-			
-			/* player 2 will have a blue background */
-			.player2 {
-				background-color: #0000FF;	
-			}
-			
-			/* set the board square to having a dark-grey border, and to be 36x36 square */
-			.board_square {
-				border: 1px solid #555555;
-				height: 36px;
-				width: 36px;
-			}
-			
-		</style>
-			
-	</head>
 	<body onload="beginGame();">
 		<!-- This is the heading HTML.  It is instructions on how to play -->
 		<h1>Connect Four</h1>
@@ -107,31 +62,6 @@
 						<td><button onclick="drop(6);">Drop</button></td>
 					</tr>
 				</thead>
-				<script>
-				//To make the code much more compact, javascript will actually be used to write the code for the game board
-				/*
-				a for loop is a basic concept for running a set of code multiple times.  It has 3 parameters, the first is a variable
-				name, in this case I used "row" and "col" I then set the value to 0.  The next parameter is 'under what conditions should 
-				i repeat the code below.  As long as that 2nd condition is "true" the code below will run.  The last parameter
-				is the increment.  This is run every time the code below is run.  In the loops below, I have i++ and j++ which means 
-				"add one to the value of row/col" 
-				*/
-				for (var row=0; row<=5; row++) {
-					/*document.writeln() function will write HTML code to the browser.  If you "inspect" this page after the browser has 
-					rendered the page, you will see a bunch of HTML
-					write the start of the table row tag
-					*/
-					document.writeln("<tr>");	
-					for (var col=0; col<=6; col++) {
-						//write each table data element - with the row and col variables in the ID so it can be accessed later.
-						document.writeln("<td id='square_" + row + "_"+ col +"' class='board_square'></td>");							
-					}
-					//write the closing table row tag.
-					document.writeln("</tr>");	
-				}						
-										
-				</script>
-			</table>
 			<!-- game_status is a place for the game to provide status updates. -->
 			<div id="game_status">
 			</div>

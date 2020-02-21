@@ -6,9 +6,8 @@
 				background-color: rgba(255,0,0,1);
 				cursor: pointer;
 			}
-			
-			/* Make each piece square - 32x32, set the border-radius to 16px (so that it appears round) and center it using margin-left
-			and margin-right: auto */
+
+
 			.piece {
 				height: 32px;
 				width: 32px;
@@ -17,26 +16,25 @@
 				margin-left: auto;
 				margin-right: auto;
 			}
-			
-			/* Player 0 (no player) will have a light-grey background */
+
+
 			.player0 {
-				background-color: #DDDDDD; /* hex colors were used, but rgb/rgba could be used as well */
+				background-color: #DDDDDD;
 			}
-			
-			/* player 1 will have a red background */
+
+
 			.player1 {
 				background-color: #FF0000;
 			}
-			
-			/* player 2 will have a blue background */
+
+
 			.player2 {
-				background-color: #0000FF;	
+				background-color: #0000FF;
 			}
-			
-			/* set the board square to having a dark-grey border, and to be 36x36 square */
+
+
 			.board_square {
 				border: 1px solid #555555;
 				height: 36px;
 				width: 36px;
 			}
-			

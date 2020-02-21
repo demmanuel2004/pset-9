@@ -53,12 +53,10 @@
             overflow:hidden;
             }
 
-.menu h1        {
-            float:left;
-            color: 'Roboto', sans-serif;;
-            font-family:andalus;
-            font-size:24;
-            }
+            .menu h1        {
+                        float:left;
+                        font-family: "Lucida Bright", Georgia, serif; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+                        }
 
   .menu:hover{
     background-color: yellow;

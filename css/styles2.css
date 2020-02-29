@@ -1,40 +1,166 @@
 
-			.click_button {
-				height: 42px;
-				width: 42px;
-				border-radius: 24px;
-				background-color: rgba(255,0,0,1);
-				cursor: pointer;
-			}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
-			.piece {
-				height: 32px;
-				width: 32px;
-				display:block;
-				border-radius: 16px;
-				margin-left: auto;
-				margin-right: auto;
-			}
+
+.column {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
 
 
-			.player0 {
-				background-color: #DDDDDD;
-			}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 456px;
+  width: 456px;
+}
 
 
-			.player1 {
-				background-color: #FF0000;
-			}
+
+.square {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  font-size: 96px;
+  height: 150px;
+  line-height: 150px;
+  user-select: none;
+  width: 150px;
+}
 
 
-			.player2 {
-				background-color: #0000FF;
-			}
+
+.square:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.menu           {
+            background-color:#FFFFFF;
+            border-bottom-width:2px;
+            border-bottom-color:#000000;
+            border-bottom-style: solid;
+            position: relative;
+            top:-15px;
+            text-align:center;
+            font-family:Andalus;
+            font-size:18px;
+            padding-left:1em;
+            padding-right:1em;
+            overflow:hidden;
+            }
+
+            .menu h1        {
+                        float:left;
+                        font-family: "Lucida Bright", Georgia, serif; font-size: 40px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+                        }
+
+  .menu:hover{
+    background-color: yellow;
+    cursor: crosshair;;
+}
+
+.main           {
+            width:65%;
+            margin:0 auto;
+            background-color:#FFFFFF;
+            text-align:center;
+            font-family:andalus;
+            font-size:24px;
+            padding-top:1px;
+            }
+
+.footer         {
+            text-align:centre;
+            background-color:#C8C8C8;
+            color:#000000;
+            font-family:andalus;
+            margin-bottom:-1em;
+            }
+
+#footer li      {
+            display:inline-block;
+            padding-right:8em;
+            vertical-align:middle;
+            margin-top: -30px;
+            }
 
 
-			.board_square {
-				border: 1px solid #555555;
-				height: 36px;
-				width: 36px;
-			}
+#nav            {
+            padding-top:15px;
+            }
+
+#nav a          {
+            text-decoration:none;
+            }
+
+#nav a:link     {
+            color:black;
+            }
+
+#nav a:visited  {
+            color:black;
+            }
+
+#nav a:hover    {
+            color:blue;
+            }
+
+img             {
+            margin:42px;
+            }
+
+#nav ul         {
+            display:inline-block;
+            }
+
+
+#nav li         {
+            display:inline-block;
+            margin-right:4.5em;
+            padding-right:2.5em;
+            }
+	.click_button {
+		height: 42px;
+		width: 42px;
+		border-radius: 24px;
+		background-color: rgba(255,0,0,1);
+		cursor: pointer;
+	}
+
+	/* Make each piece square - 32x32, set the border-radius to 16px (so that it appears round) and center it using margin-left
+	and margin-right: auto */
+	.piece {
+		height: 32px;
+		width: 32px;
+		display:block;
+		border-radius: 16px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Player 0 (no player) will have a light-grey background */
+	.player0 {
+		background-color: #DDDDDD; /* hex colors were used, but rgb/rgba could be used as well */
+	}
+
+	/* player 1 will have a red background */
+	.player1 {
+		background-color: #FF0000;
+	}
+
+	/* player 2 will have a blue background */
+	.player2 {
+		background-color: #0000FF;
+	}
+
+	/* set the board square to having a dark-grey border, and to be 36x36 square */
+	.board_square {
+		border: 1px solid #555555;
+		height: 100px;
+		width: 100px;
+	}

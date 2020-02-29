@@ -67,6 +67,7 @@ function checkForWin() {
 	}
 
 
+
 	for (i=1; i<=2; i++) {
 
 		for (col = 0; col <=3; col++) {
@@ -100,6 +101,7 @@ function checkForWin() {
 		}
 	}
 }
+
 
 
 function endGame(winningPlayer) {

@@ -3,7 +3,7 @@ var active_player = 0;
 var gameboard = [];
 var player_color = [];
 player_color[1] = "red";
-player_color[2] = "blue";
+player_color[2] = "yellow";
 
 function beginGame() {
 
@@ -107,6 +107,7 @@ function checkForWin() {
 function endGame(winningPlayer) {
 	game_active = false;
 	document.getElementById('game_info').innerHTML = "Winner: " + winningPlayer;
+
 }
 
 
